@@ -1,0 +1,52 @@
+//Global Rules
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #212121;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-primary);
+}
+
+a,
+p {
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: #e2e2e2;
+}
+//Variables
+
+/* colors */
+:root {
+  --color-primary: #f1f1f1;
+  --color-secondary: #c4c4c4;
+  --color-additional: #000;
+}
+
+//Imports
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "./nav";
+@import "./info";
+@import "./image";
+@import "./app";
+@import "./title";
+@import "./P-error";

@@ -1,0 +1,23 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "title image"
+    "info image";
+  padding: 10vh 10vw 0vh 10vw;
+}
+
+.image {
+  grid-area: image;
+}
+
+.title {
+  grid-area: title;
+}
+
+.info-grid {
+  grid-area: info;
+}

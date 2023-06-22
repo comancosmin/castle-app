@@ -1,0 +1,51 @@
+.container-info {
+  background-color: rgb(58, 58, 58);
+  height: 250px;
+  width: 550px;
+  border-radius: 25px;
+  padding: 1.5rem;
+  /* info content */
+  .info {
+    padding: 0.6rem 1rem;
+    box-shadow: 1px 1px 1px #ffffff20;
+    h3 {
+      font-weight: 500;
+      font-size: 0.7rem;
+      opacity: 90%;
+    }
+    p {
+      font-size: 0.9rem;
+      font-weight: 200;
+    }
+    &:nth-child(2) {
+      padding: 1.4rem 1rem;
+    }
+    &:nth-child(3) {
+      box-shadow: none;
+    }
+  }
+  /* search bar */
+  .search {
+    height: 250px;
+    width: 85px;
+    position: relative;
+    top: -222px;
+    left: 445px;
+  }
+  .gradient {
+    height: 250px;
+    width: 85px;
+    position: relative;
+    top: -472px;
+    left: 445px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  svg {
+    position: relative;
+    top: 110px;
+    left: 24px;
+    z-index: 1;
+    cursor: pointer;
+  }
+}

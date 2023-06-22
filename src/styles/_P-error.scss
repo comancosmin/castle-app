@@ -1,0 +1,28 @@
+.error-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  h1 {
+    font-weight: 900;
+    font-size: 10rem;
+    svg {
+      margin: 0 1rem;
+    }
+  }
+  //animation
+  svg {
+    animation: error 2s alternate infinite linear;
+  }
+
+  @keyframes error {
+    from {
+      transform: translateY(0.15em) scaleY(0.95);
+    }
+
+    to {
+      transform: translateY(-0.15em);
+    }
+  }
+}

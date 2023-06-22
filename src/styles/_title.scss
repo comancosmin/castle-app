@@ -1,0 +1,13 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 100%;
+  }
+  p {
+    padding: 5vh 0;
+    font-size: 0.9rem;
+  }
+}
